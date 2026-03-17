@@ -6,7 +6,7 @@ public class Awarder
         if (points > 99) {
             return "First Place";
         }
-        else if (points > 49 && points < 100) {
+        else if (points > 49) {
             return "Second Place";
         }
         else {
